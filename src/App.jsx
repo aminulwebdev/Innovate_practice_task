@@ -55,7 +55,6 @@ function App() {
             Menu part end
       ========================= */}
 
-
       {/*==========================
             Banner part start
       ========================= */}
@@ -142,19 +141,67 @@ function App() {
             Banner part end
       ========================= */}
 
+      {/*==========================
+            About Us part start
+      ========================= */}
 
-
-
-
-
-
+      <section className=" py-36">
+        <div className=" container flex">
+          <div className=" w-[60%] relative">
+            <img src="/shape_one.png" alt="" className=" pt-6 pl-6 z-10" />
+            <img
+              src="/shape_dot.png"
+              alt=""
+              className=" absolute top-0 left-0 -z-10"
+            />
+          </div>
+          <div className=" w-[40%]">
+            <h4 className=" text-xl font-semibold font-primary text-brand_clr">
+              ABOUT US
+            </h4>
+            <h2 className=" title pt-2 pb-5">
+              Welcome to World Best Business Company
+            </h2>
+            <p className=" basic w-3/4">
+              We partner with experienced and qualified Accountants, Financial
+              Advisors and Chartered Secretaries to provide
+            </p>
+            <ul className=" pt-6 pb-10">
+              <li className=" flex items-center gap-3 text-primary_clr text-lg leading-8 font-normal font-secondary">
+                <span className=" bg-[#52C5B6] rounded-full p-1">
+                  {" "}
+                  <BsCheckLg />{" "}
+                </span>
+                Monthly assesment report
+              </li>
+              <li className=" flex items-center gap-3 text-primary_clr text-lg leading-8 font-normal font-secondary py-5">
+                <span className=" bg-[#52C5B6] rounded-full p-1">
+                  {" "}
+                  <BsCheckLg />{" "}
+                </span>
+                Tax planning consultation
+              </li>
+              <li className=" flex items-center gap-3 text-primary_clr text-lg leading-8 font-normal font-secondary">
+                <span className=" bg-[#52C5B6] rounded-full p-1">
+                  {" "}
+                  <BsCheckLg />{" "}
+                </span>
+                Montly rent problem solution
+              </li>
+            </ul>
+            <button className=" px-7 py-4 text-white font-primary bg-brand_clr rounded-md">
+              Free Consultation
+            </button>
+          </div>
+        </div>
+      </section>
 
       {/*==========================
-            Menu part start
+            About Us part end
       ========================= */}
-      {/*==========================
-            Menu part end
-      ========================= */}
+
+     
+
       {/*==========================
             Menu part start
       ========================= */}
@@ -172,4 +219,3 @@ function App() {
 }
 
 export default App;
-
