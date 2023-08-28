@@ -1,8 +1,16 @@
 import { IoIosArrowDown } from "react-icons/io";
 import { AiFillStar } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 function App() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  };
   return (
     <>
       {/*==========================
@@ -217,17 +225,126 @@ function App() {
             </p>
           </div>
 
-          <div>
-            <div className=" w-96 px-6 py-10 bg-white">
-              <div className=" bg-[#F44C4C] w-fit p-5 rounded-full m-auto">
-                <img src="/serviceIcon_one.png" alt="" />
+          {/* ===========Slider========== */}
+
+          <Slider {...settings}>
+            {/* -------Slider_01------ */}
+            <div className=" w-1/3 px-6 py-10 bg-white">
+              <div className=" relative">
+                <div className=" animate-spin bg-[#F44C4C] w-24 h-24  rounded-full m-auto relative">
+                  <span className="  w-[128%] h-[128%] border-2 border-[#F44C4C] rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 after:absolute after:w-3 after:h-3 after:bg-[#F44C4C] after:rounded-full after:top-[-6px] after:left-1/2"></span>
+                </div>
+                <img
+                  src="/serviceIcon_one.png"
+                  alt=""
+                  className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
               </div>
+
               <div className=" text-center">
-                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">Grow Your Brand And Business</h4>
-                <p className=" text-base leading-6 font-normal text-secondary_clr">That community can of course lend to sales - that's how brand and business go hand-in-hand</p>
+                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">
+                  Grow Your Brand And Business
+                </h4>
+                <p className=" text-base leading-6 font-normal text-secondary_clr">
+                  That community can of course lend to sales - that's how brand
+                  and business go hand-in-hand
+                </p>
               </div>
             </div>
-          </div>
+            {/* -------Slider_02------ */}
+            <div className=" w-1/3 px-6 py-10 bg-white">
+              <div className=" relative">
+                <div className=" animate-spin bg-[#F44C4C] w-24 h-24  rounded-full m-auto relative">
+                  <span className="  w-[128%] h-[128%] border-2 border-[#F44C4C] rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 after:absolute after:w-3 after:h-3 after:bg-[#F44C4C] after:rounded-full after:top-[-6px] after:left-1/2"></span>
+                </div>
+                <img
+                  src="/serviceIcon_one.png"
+                  alt=""
+                  className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
+              </div>
+
+              <div className=" text-center">
+                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">
+                  Grow Your Brand And Business
+                </h4>
+                <p className=" text-base leading-6 font-normal text-secondary_clr">
+                  That community can of course lend to sales - that's how brand
+                  and business go hand-in-hand
+                </p>
+              </div>
+            </div>
+            {/* -------Slider_03------ */}
+            <div className=" w-1/3 px-6 py-10 bg-white">
+              <div className=" relative">
+                <div className=" animate-spin bg-[#F44C4C] w-24 h-24  rounded-full m-auto relative">
+                  <span className="  w-[128%] h-[128%] border-2 border-[#F44C4C] rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 after:absolute after:w-3 after:h-3 after:bg-[#F44C4C] after:rounded-full after:top-[-6px] after:left-1/2"></span>
+                </div>
+                <img
+                  src="/serviceIcon_one.png"
+                  alt=""
+                  className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
+              </div>
+
+              <div className=" text-center">
+                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">
+                  Grow Your Brand And Business
+                </h4>
+                <p className=" text-base leading-6 font-normal text-secondary_clr">
+                  That community can of course lend to sales - that's how brand
+                  and business go hand-in-hand
+                </p>
+              </div>
+            </div>
+            {/* -------Slider_04------ */}
+            <div className=" w-1/3 px-6 py-10 bg-white">
+              <div className=" relative">
+                <div className=" animate-spin bg-[#F44C4C] w-24 h-24  rounded-full m-auto relative">
+                  <span className="  w-[128%] h-[128%] border-2 border-[#F44C4C] rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 after:absolute after:w-3 after:h-3 after:bg-[#F44C4C] after:rounded-full after:top-[-6px] after:left-1/2"></span>
+                </div>
+                <img
+                  src="/serviceIcon_one.png"
+                  alt=""
+                  className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
+              </div>
+
+              <div className=" text-center">
+                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">
+                  Grow Your Brand And Business
+                </h4>
+                <p className=" text-base leading-6 font-normal text-secondary_clr">
+                  That community can of course lend to sales - that's how brand
+                  and business go hand-in-hand
+                </p>
+              </div>
+            </div>
+            {/* -------Slider_05------ */}
+            <div className=" w-1/3 px-6 py-10 bg-white">
+              <div className=" relative">
+                <div className=" animate-spin bg-[#F44C4C] w-24 h-24  rounded-full m-auto relative">
+                  <span className="  w-[128%] h-[128%] border-2 border-[#F44C4C] rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 after:absolute after:w-3 after:h-3 after:bg-[#F44C4C] after:rounded-full after:top-[-6px] after:left-1/2"></span>
+                </div>
+                <img
+                  src="/serviceIcon_one.png"
+                  alt=""
+                  className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                />
+              </div>
+
+              <div className=" text-center">
+                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">
+                  Grow Your Brand And Business
+                </h4>
+                <p className=" text-base leading-6 font-normal text-secondary_clr">
+                  That community can of course lend to sales - that's how brand
+                  and business go hand-in-hand
+                </p>
+              </div>
+            </div>
+          </Slider>
+          {/* ===========Slider========== */}
         </div>
       </section>
 
