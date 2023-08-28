@@ -145,7 +145,7 @@ function App() {
             About Us part start
       ========================= */}
 
-      <section className=" py-36">
+      <section className=" py-32">
         <div className=" container flex">
           <div className=" w-[60%] relative">
             <img src="/shape_one.png" alt="" className=" pt-6 pl-6 z-10" />
@@ -200,7 +200,40 @@ function App() {
             About Us part end
       ========================= */}
 
-     
+      {/*==========================
+            Services part start
+      ========================= */}
+
+      <section className="bg-[#FAFAFA]">
+        <div className=" container pb-36 pt-28">
+          <h4 className=" text-xl font-semibold font-primary text-brand_clr">
+            Services
+          </h4>
+          <div className=" flex justify-between mb-12">
+            <h2 className=" title w-[30%]">Find the service we provide</h2>
+            <p className=" basic w-[35%]">
+              Our consultants have years of experience on the in success.
+              ​Through the provision of our services.
+            </p>
+          </div>
+
+          <div>
+            <div className=" w-96 px-6 py-10 bg-white">
+              <div className=" bg-[#F44C4C] w-fit p-5 rounded-full m-auto">
+                <img src="/serviceIcon_one.png" alt="" />
+              </div>
+              <div className=" text-center">
+                <h4 className=" text-xl leading-7 font-semibold font-primary text-primary_clr pt-7 pb-4">Grow Your Brand And Business</h4>
+                <p className=" text-base leading-6 font-normal text-secondary_clr">That community can of course lend to sales - that's how brand and business go hand-in-hand</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*==========================
+            Services part end
+      ========================= */}
 
       {/*==========================
             Menu part start
