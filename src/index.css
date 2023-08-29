@@ -2,14 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.title{
-    @apply text-5xl font-semibold font-primary leading-[62px] text-primary_clr
-    text-5xl font-semibold font-primary leading-[62px] text-primary_clr
+.title {
+  @apply text-5xl font-semibold font-primary leading-[62px] text-primary_clr
+    text-5xl font-semibold font-primary leading-[62px] text-primary_clr;
 }
 
-.basic{
-    @apply text-lg leading-8 font-normal text-secondary_clr font-secondary
-    text-lg leading-8 font-normal text-secondary_clr font-secondary
+.basic {
+  @apply text-lg leading-8 font-normal text-secondary_clr font-secondary
+    text-lg leading-8 font-normal text-secondary_clr font-secondary;
 }
 
+.innovate_dots .slick-active div {
+  @apply bg-brand_clr mx-3 transition-all relative after:absolute after:border-2 after:border-brand_clr after:w-8 after:h-8 after:rounded-full  after:top-1/2 after:left-1/2  after:-translate-x-1/2 after:-translate-y-1/2;
+}
+
+.service {
+  @apply mx-5 px-6  py-10 bg-white  rounded-md;
+}
+
+.slick-current .service {
+  @apply border-b-8 border-[#52C5B6];
+}
