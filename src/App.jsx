@@ -197,7 +197,7 @@ function App() {
             About Us part start
       ========================= */}
 
-      <section className=" py-32">
+      <section className=" my-40">
         <div className=" container flex">
           <div className=" w-[60%] relative">
             <img src="/shape_one.png" alt="" className=" pt-6 pl-6 z-10" />
@@ -257,7 +257,7 @@ function App() {
       ========================= */}
 
       <section className="bg-[#FAFAFA]">
-        <div className=" container pb-36 pt-28">
+        <div className=" container  pt-28 pb-48">
           <h4 className=" text-xl font-semibold font-primary text-brand_clr">
             Services
           </h4>
@@ -407,10 +407,61 @@ function App() {
       ========================= */}
 
       {/*==========================
-            Menu part start
+            Solution part start
       ========================= */}
+
+      <section>
+        <div className=" container my-40 flex">
+          <div className=" w-[50%]">
+            <h2 className=" title w-[70%]">
+              Best Reliable Solution For Your Business
+            </h2>
+            <p className=" basic w-[65%] pt-5 pb-10">
+              We help our clients succeed by creating brand identities, digital
+              experiences, and print materials that communicate clearly, achieve
+              marketing.
+            </p>
+            <button className=" px-7 py-4 text-white font-primary bg-brand_clr rounded-md">
+              Get Started Now
+            </button>
+            <div className=" flex">
+              <div className=" ">
+                <h3 className=" text-2xl font-primary font-semibold leading-8 text-primary_clr  w-[70%] pt-20 pb-4">
+                  First-class investment solutions
+                </h3>
+                <p className=" text-base leading-7 font-normal font-secondary text-secondary_clr w-[70%]">
+                  We can help you with your business strategy, architecture,
+                  mapping, and optimisation.{" "}
+                </p>
+              </div>
+              <div>
+                <h3 className=" text-2xl font-primary font-semibold leading-8 text-primary_clr w-[70%] pt-20 pb-4">
+                  Building <br /> the idea of future
+                </h3>
+                <p className=" text-base leading-7 font-normal font-secondary text-secondary_clr w-[70%]">
+                  Offering Performance Driven Partnerships CIBA Specializes In
+                  Business Process Outsourcing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className=" w-[50%] relative">
+            <img src="/shape_two.png" alt="" className=" w-full z-10" />
+            <img
+              src="/shape_dot.png"
+              alt=""
+              className=" absolute bottom-14 right-12 -z-10"
+            />
+            <div className=" flex items-center gap-3 bg-[#52C5B6] w-fit p-6">
+              <h3 className=" text-7xl font-bold font-primary text-white">24</h3>
+              <p className="  font-semibold font-primary leading-9 text-white text-2xl w-[27%]">Years  Experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/*==========================
-            Menu part end
+            Solution part end
       ========================= */}
       {/*==========================
             Menu part start
