@@ -44,8 +44,7 @@ function App() {
     appendDots: (dots) => (
       <div>
         <ul className=" flex gap-2 absolute bottom-[-75px] left-1/2 -translate-x-1/2  innovate_dots">
-          {" "}
-          {dots}{" "}
+          {dots}
         </ul>
       </div>
     ),
@@ -221,22 +220,19 @@ function App() {
             <ul className=" pt-6 pb-10">
               <li className=" flex items-center gap-3 text-primary_clr text-lg leading-8 font-normal font-secondary">
                 <span className=" bg-[#52C5B6] rounded-full p-1">
-                  {" "}
                   <BsCheckLg />{" "}
                 </span>
                 Monthly assesment report
               </li>
               <li className=" flex items-center gap-3 text-primary_clr text-lg leading-8 font-normal font-secondary py-5">
                 <span className=" bg-[#52C5B6] rounded-full p-1">
-                  {" "}
                   <BsCheckLg />{" "}
                 </span>
                 Tax planning consultation
               </li>
               <li className=" flex items-center gap-3 text-primary_clr text-lg leading-8 font-normal font-secondary">
                 <span className=" bg-[#52C5B6] rounded-full p-1">
-                  {" "}
-                  <BsCheckLg />{" "}
+                  <BsCheckLg />
                 </span>
                 Montly rent problem solution
               </li>
@@ -431,7 +427,7 @@ function App() {
                 </h3>
                 <p className=" text-base leading-7 font-normal font-secondary text-secondary_clr w-[70%]">
                   We can help you with your business strategy, architecture,
-                  mapping, and optimisation.{" "}
+                  mapping, and optimisation.
                 </p>
               </div>
               <div>
@@ -452,9 +448,16 @@ function App() {
               alt=""
               className=" absolute bottom-14 right-12 -z-10"
             />
-            <div className=" flex items-center gap-3 bg-[#52C5B6] w-fit p-6">
-              <h3 className=" text-7xl font-bold font-primary text-white">24</h3>
-              <p className="  font-semibold font-primary leading-9 text-white text-2xl w-[27%]">Years  Experience</p>
+            <div className=" absolute  right-[15%] bottom-0">
+              <div className=" flex items-center gap-3 bg-[#52C5B6] w-fit px-6 py-5 relative">
+                <h3 className=" text-7xl font-bold font-primary text-white">
+                  24
+                </h3>
+                <p className="  font-semibold font-primary leading-9 text-white text-2xl w-[27%]">
+                  Years Experience
+                </p>
+                <div className=" absolute bg-white top-10   h-1 rounded-full w-32 left-52"></div>
+              </div>
             </div>
           </div>
         </div>
