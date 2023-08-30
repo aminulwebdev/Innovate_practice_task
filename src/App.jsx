@@ -2,6 +2,10 @@ import { IoIosArrowDown } from "react-icons/io";
 import { AiFillStar } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
+import { HiOutlinePlus } from "react-icons/hi";
+import { FaPinterestP } from "react-icons/fa";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { AiOutlineTwitter } from "react-icons/ai";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
@@ -207,9 +211,9 @@ function App() {
             />
           </div>
           <div className=" w-[40%]">
-            <h4 className=" text-xl font-semibold font-primary text-brand_clr">
+            <h3 className=" text-xl font-semibold font-primary text-brand_clr">
               ABOUT US
-            </h4>
+            </h3>
             <h2 className=" title pt-2 pb-5">
               Welcome to World Best Business Company
             </h2>
@@ -254,9 +258,9 @@ function App() {
 
       <section className="bg-[#FAFAFA]">
         <div className=" container  pt-28 pb-48">
-          <h4 className=" text-xl font-semibold font-primary text-brand_clr">
+          <h3 className=" text-xl font-semibold font-primary text-brand_clr">
             Services
-          </h4>
+          </h3>
           <div className=" flex justify-between mb-12">
             <h2 className=" title w-[30%]">Find the service we provide</h2>
             <p className=" basic w-[35%]">
@@ -449,14 +453,14 @@ function App() {
               className=" absolute bottom-14 right-12 -z-10"
             />
             <div className=" absolute  right-[15%] bottom-0">
-              <div className=" flex items-center gap-3 bg-[#52C5B6] w-fit px-6 py-5 relative">
+              <div className=" flex items-center gap-3 bg-[#52C5B6] w-fit pl-6 py-5 relative pr-16 after:absolute after:bg-white after:top-9 after:h-1 after:rounded-full after:w-32 after:left-52">
                 <h3 className=" text-7xl font-bold font-primary text-white">
                   24
                 </h3>
                 <p className="  font-semibold font-primary leading-9 text-white text-2xl w-[27%]">
                   Years Experience
                 </p>
-                <div className=" absolute bg-white top-10   h-1 rounded-full w-32 left-52"></div>
+                <div className=" "></div>
               </div>
             </div>
           </div>
@@ -465,6 +469,194 @@ function App() {
 
       {/*==========================
             Solution part end
+      ========================= */}
+
+      {/*==========================
+            Team part start
+      ========================= */}
+
+      <section>
+        <div className=" bg-[url('/team_bg.png')] bg-no-repeat bg-cover bg-center pt-20 pb-56">
+          <div className=" text-center">
+            <h3 className=" text-xl font-semibold font-primary text-brand_clr">
+              our team
+            </h3>
+            <h2 className=" text-5xl font-semibold text-white leading-[62px] font-primary pt-2">
+              Meet with Expert
+            </h2>
+          </div>
+        </div>
+        <div className=" container relative -translate-y-1/3">
+          <div className=" flex justify-between">
+            {/* ======Expert One====== */}
+            <div className=" w-fit relative">
+              <img src="/expert_one.png" alt="" className=" rounded-lg" />
+              <div className=" group/item ">
+                <div className=" bg-white w-[70%] py-5 pl-16 pr-11 -translate-y-3/4 rounded-tr-xl  group-hover/item:bg-[#52C5B6] cursor-pointer transition-all after:absolute after:w-7 after:h-[2px] after:rounded-full after:bg-[#52C5B6] after:top-[35%] after:left-[8%] after:group-hover/item:bg-white after:transition-all ">
+                  <h3 className=" text-lg font-semibold font-primary text-primary_clr pb-2  group-hover/item:text-white transition-all">
+                    Eleanor Pena
+                  </h3>
+                  <p className=" text-secondary_clr text-sm font-normal font-secondary">
+                    Senior Engineer
+                  </p>
+                </div>
+              </div>
+
+              <div className="  absolute bottom-28 right-7 w-fit h-fit overflow-y-hidden">
+                <div className=" group h-60 flex items-end cursor-pointer">
+                  <ul className=" flex flex-col gap-4 absolute opacity-0 group-hover:opacity-100  bottom-11 left-0 translate-y-full group-hover:-translate-y-4 transition-all ">
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <FaPinterestP />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <BiLogoLinkedin />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <AiOutlineTwitter />{" "}
+                    </li>
+                  </ul>
+                  <div className="  bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr  z-50 group-hover:bg-[#52C5B6] group-hover:text-white">
+                    <HiOutlinePlus className=" group-hover:rotate-45 " />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ======Expert Two====== */}
+            <div className=" w-fit relative">
+              <img src="/expert_one.png" alt="" className=" rounded-lg" />
+              <div className=" group/item ">
+                <div className=" bg-white w-[70%] py-5 pl-16 pr-11 -translate-y-3/4 rounded-tr-xl  group-hover/item:bg-[#52C5B6] cursor-pointer transition-all after:absolute after:w-7 after:h-[2px] after:rounded-full after:bg-[#52C5B6] after:top-[35%] after:left-[8%] after:group-hover/item:bg-white after:transition-all ">
+                  <h3 className=" text-lg font-semibold font-primary text-primary_clr pb-2  group-hover/item:text-white transition-all">
+                    Eleanor Pena
+                  </h3>
+                  <p className=" text-secondary_clr text-sm font-normal font-secondary">
+                    Senior Engineer
+                  </p>
+                </div>
+              </div>
+
+              <div className="  absolute bottom-28 right-7 w-fit h-fit overflow-y-hidden">
+                <div className=" group h-60 flex items-end cursor-pointer">
+                  <ul className=" flex flex-col gap-4 absolute opacity-0 group-hover:opacity-100  bottom-11 left-0 translate-y-full group-hover:-translate-y-4 transition-all ">
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <FaPinterestP />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <BiLogoLinkedin />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <AiOutlineTwitter />{" "}
+                    </li>
+                  </ul>
+                  <div className="  bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr  z-50 group-hover:bg-[#52C5B6] group-hover:text-white">
+                    <HiOutlinePlus className=" group-hover:rotate-45 " />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ======Expert Three====== */}
+            <div className=" w-fit relative">
+              <img src="/expert_one.png" alt="" className=" rounded-lg" />
+              <div className=" group/item ">
+                <div className=" bg-white w-[70%] py-5 pl-16 pr-11 -translate-y-3/4 rounded-tr-xl  group-hover/item:bg-[#52C5B6] cursor-pointer transition-all after:absolute after:w-7 after:h-[2px] after:rounded-full after:bg-[#52C5B6] after:top-[35%] after:left-[8%] after:group-hover/item:bg-white after:transition-all ">
+                  <h3 className=" text-lg font-semibold font-primary text-primary_clr pb-2  group-hover/item:text-white transition-all">
+                    Eleanor Pena
+                  </h3>
+                  <p className=" text-secondary_clr text-sm font-normal font-secondary">
+                    Senior Engineer
+                  </p>
+                </div>
+              </div>
+
+              <div className="  absolute bottom-28 right-7 w-fit h-fit overflow-y-hidden">
+                <div className=" group h-60 flex items-end cursor-pointer">
+                  <ul className=" flex flex-col gap-4 absolute opacity-0 group-hover:opacity-100  bottom-11 left-0 translate-y-full group-hover:-translate-y-4 transition-all ">
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <FaPinterestP />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <BiLogoLinkedin />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <AiOutlineTwitter />{" "}
+                    </li>
+                  </ul>
+                  <div className="  bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr  z-50 group-hover:bg-[#52C5B6] group-hover:text-white">
+                    <HiOutlinePlus className=" group-hover:rotate-45 " />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ======Expert four====== */}
+            <div className=" w-fit relative">
+              <img src="/expert_one.png" alt="" className=" rounded-lg" />
+              <div className=" group/item ">
+                <div className=" bg-white w-[70%] py-5 pl-16 pr-11 -translate-y-3/4 rounded-tr-xl  group-hover/item:bg-[#52C5B6] cursor-pointer transition-all after:absolute after:w-7 after:h-[2px] after:rounded-full after:bg-[#52C5B6] after:top-[35%] after:left-[8%] after:group-hover/item:bg-white after:transition-all ">
+                  <h3 className=" text-lg font-semibold font-primary text-primary_clr pb-2  group-hover/item:text-white transition-all">
+                    Eleanor Pena
+                  </h3>
+                  <p className=" text-secondary_clr text-sm font-normal font-secondary">
+                    Senior Engineer
+                  </p>
+                </div>
+              </div>
+
+              <div className="  absolute bottom-28 right-7 w-fit h-fit overflow-y-hidden">
+                <div className=" group h-60 flex items-end cursor-pointer">
+                  <ul className=" flex flex-col gap-4 absolute opacity-0 group-hover:opacity-100  bottom-11 left-0 translate-y-full group-hover:-translate-y-4 transition-all ">
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <FaPinterestP />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <BiLogoLinkedin />{" "}
+                    </li>
+                    <li className=" bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr">
+                      {" "}
+                      <AiOutlineTwitter />{" "}
+                    </li>
+                  </ul>
+                  <div className="  bg-white w-11 h-11 rounded-full flex items-center justify-center text-secondary_clr  z-50 group-hover:bg-[#52C5B6] group-hover:text-white">
+                    <HiOutlinePlus className=" group-hover:rotate-45 " />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*==========================
+            Team part end
+      ========================= */}
+
+      {/*==========================
+            Menu part start
+      ========================= */}
+      {/*==========================
+            Menu part end
+      ========================= */}
+      {/*==========================
+            Menu part start
+      ========================= */}
+      {/*==========================
+            Menu part end
+      ========================= */}
+      {/*==========================
+            Menu part start
+      ========================= */}
+      {/*==========================
+            Menu part end
       ========================= */}
       {/*==========================
             Menu part start

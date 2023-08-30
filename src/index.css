@@ -3,13 +3,11 @@
 @tailwind utilities;
 
 .title {
-  @apply text-5xl font-semibold font-primary leading-[62px] text-primary_clr
-    text-5xl font-semibold font-primary leading-[62px] text-primary_clr;
+  @apply text-5xl font-semibold font-primary leading-[62px] text-primary_clr;
 }
 
 .basic {
-  @apply text-lg leading-8 font-normal text-secondary_clr font-secondary
-    text-lg leading-8 font-normal text-secondary_clr font-secondary;
+  @apply text-lg leading-8 font-normal text-secondary_clr font-secondary;
 }
 
 .innovate_dots .slick-active div {
