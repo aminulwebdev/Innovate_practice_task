@@ -39,7 +39,7 @@ function App() {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     autoplaySpeed: 1000,
     cssEase: "linear",
@@ -641,11 +641,34 @@ function App() {
       ========================= */}
 
       {/*==========================
-            Menu part start
+            Startup part start
       ========================= */}
+
+<section>
+  <div className=" container flex">
+    <div className="w-[60%] relative">
+      <img src="/startup_img.png" alt=""  className=" relative " />
+      <img src="/Chat Box.png" alt="" className=" absolute top-[25%] left-5" />
+      <span className=" absolute bottom-[3%] right-[39%] -z-10"> <img src="/shape_dot.png" alt="" /> </span>
+    </div>
+    <div className="w-[40%]">
+      <h2 className=" title  pt-24">Startup digital platform for investing</h2>
+      {/* ======accordion======== */}
+      <div>
+        <h2 className=" text-6xl text-center pt-56">accordion here</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/*==========================
-            Menu part end
+            Startup part end
       ========================= */}
+
+
+
+
+
       {/*==========================
             Menu part start
       ========================= */}
