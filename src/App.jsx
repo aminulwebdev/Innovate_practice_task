@@ -726,8 +726,27 @@ function App() {
             Counter part end
       ========================= */}
 
-    
+      {/*==========================
+            Reviews part start
+      ========================= */}
+      <section className=" bg-[#FAFAFA]">
+        <div className=" container py-32 ">
+          <div>
+            <h2 className=" title w-[40%]">
+              What our customers are saying about us
+            </h2>
+          </div>
 
+          {/* ======slider====== */}
+          <div>
+              <h2 className="text-6xl text-center pt-28">Slider here</h2>
+          </div>
+        </div>
+      </section>
+      {/*==========================
+            Reviews part end
+      ========================= */}
+      
 
       {/*==========================
             Menu part start
