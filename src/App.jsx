@@ -644,43 +644,91 @@ function App() {
             Startup part start
       ========================= */}
 
-<section>
-  <div className=" container flex">
-    <div className="w-[60%] relative">
-      <img src="/startup_img.png" alt=""  className=" relative " />
-      <img src="/Chat Box.png" alt="" className=" absolute top-[25%] left-5" />
-      <span className=" absolute bottom-[3%] right-[39%] -z-10"> <img src="/shape_dot.png" alt="" /> </span>
-    </div>
-    <div className="w-[40%]">
-      <h2 className=" title  pt-24">Startup digital platform for investing</h2>
-      {/* ======accordion======== */}
-      <div>
-        <h2 className=" text-6xl text-center pt-56">accordion here</h2>
-      </div>
-    </div>
-  </div>
-</section>
+      <section>
+        <div className=" container flex">
+          <div className="w-[60%] relative">
+            <img src="/startup_img.png" alt="" className=" relative " />
+            <img
+              src="/chat Box.png"
+              alt=""
+              className=" absolute top-[25%] left-5"
+            />
+            <span className=" absolute bottom-[3%] right-[39%] -z-10">
+              {" "}
+              <img src="/shape_dot.png" alt="" />{" "}
+            </span>
+          </div>
+          <div className="w-[40%]">
+            <h2 className=" title pt-28">
+              Startup digital platform for investing
+            </h2>
+            {/* ======accordion======== */}
+            <div>
+              <h2 className=" text-6xl text-center pt-56">accordion here</h2>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/*==========================
             Startup part end
       ========================= */}
 
+      {/*==========================
+            Counter part start
+      ========================= */}
 
+      <section className=" bg-[url('/counter_bg.png')] bg-no-repeat bg-cover bg-center mt-40">
+        <div className=" container py-28 flex">
+          <div className="w-[50%]">
+            <h3 className=" text-4xl leading-[54px] font-primary font-semibold text-white pb-10 w-[70%] ">
+              Trusted by the world’s leading companies
+            </h3>
+            <button className=" px-7 py-4 text-white font-primary bg-brand_clr rounded-md">
+              Free Consultation
+            </button>
+          </div>
+          <div className=" w-[50%]">
+            {/* ====counter===== */}
+            <div>
+              <h2 className="text-6xl text-center pb-28">Counter here</h2>
+            </div>
 
-
+            <div>
+              <ul className=" flex gap-24">
+                <li>
+                  <a href="">
+                    <img src="/companies_one.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="/companies_two.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="/companies_three.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="/companies_four.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/*==========================
-            Menu part start
+            Counter part end
       ========================= */}
-      {/*==========================
-            Menu part end
-      ========================= */}
-      {/*==========================
-            Menu part start
-      ========================= */}
-      {/*==========================
-            Menu part end
-      ========================= */}
+
+    
+
+
       {/*==========================
             Menu part start
       ========================= */}
